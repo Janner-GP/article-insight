@@ -1,0 +1,93 @@
+# Ignore Python files and folders
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.env
+backend/venv/
+
+# Ignore Node.js files and folders
+frontend/node_modules/
+frontend/dist/
+frontend/tmp/
+frontend/.env
+
+# Ignore OS configuration files
+.DS_Store
+Thumbs.db
+
+# Ignore editor configuration files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore Angular build files
+frontend/.angular/cache/
+frontend/.angular-build/
+
+# Ignore OS-specific files
+# Linux files
+*~
+
+# Windows files
+*.bak
+*.orig
+*.tmp
+
+# Ignore package installation files
+package-lock.json
+
+# Additional suggestions:
+
+# Ignore IDE project files
+frontend/.idea/workspace.xml
+frontend/.idea/modules.xml
+frontend/.idea/caches/
+
+# Ignore test files
+frontend/__tests__/
+frontend/*.spec.ts
+frontend/*.spec.js
+
+# Ignore coverage files
+frontend/coverage/
+
+# Ignore temporary files
+frontend/*.tmp/*
+
+# Ignore generated files
+frontend/*.ngfactory.ts
+frontend/*.ngfactory.js
+
+# Ignore source maps
+frontend/*.map
+
+# Ignore build artifacts
+frontend/build/
+
+# Ignore files related to Webpack configuration
+frontend/webpack.config.js
+frontend/webpack.dev.config.js
+frontend/webpack.prod.config.js
+
+# Ignore files related to Karma configuration
+frontend/karma.conf.js
+
+# Ignore files related to Jest configuration
+frontend/jest.config.js
+
+# Ignore files related to Protractor configuration
+frontend/protractor.conf.js
+
+# Ignore files related to Storybook configuration
+frontend/.storybook/
+
+# Ignore files related to TypeScript compiler
+frontend/tsconfig.json
+frontend/tslint.json
+
+# Ignore environment configuration files
+frontend/.env
+frontend/.env.production

@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --dark-bg: #333;
+    --dark-font: #efefef;
+    --ligth-bg: #efefef;
+    --ligth-font: #333;
+    --dark-sidebar-bg: #222;
+    --dark-sidebar-secondary-bg: #3a3a3a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--dark-bg);
+    color: var(--dark-font);
+}
+
+div.main-wrapper {
+    display: flex;
+}
+
+div.main-wrapper aside {
+    width: fit-content;
+}
+
+div.main-wrapper div.content-wrapper {
+    flex-grow: 1;
+    margin-left: 250px;
+    height: 100vh;
+}

@@ -1,0 +1,16 @@
+<div class="sidebar">
+  <div class="header">
+      <h5>Article Insight</h5>
+  </div>
+  <hr>
+  <div class="sidebar-content">
+      <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item mb-2" *ngFor="let item of items">
+              <a [routerLink]="item.path" class="nav-link" routerLinkActive="active" aria-current="page">
+                  <i class="{{ item.icon }} me-2"></i>
+                  {{ item.name }}
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>
